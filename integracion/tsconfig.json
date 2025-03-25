@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", /* Set the JavaScript language version for emitted */
+    "module": "ESNext", /* Specify what module code is generated. */
+    "rootDir": "./", /* Specify the root folder within your source files. */
+    "outDir": "./dist", /* Specify an output folder for all emitted files. */
+    // "verbatimModuleSyntax": true, /* Do not transform or elide any imports or exports not marked as type-only, ensuring they are written in the output file's format based on the 'module' setting. */
+    "esModuleInterop": true, /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "forceConsistentCasingInFileNames": true, /* Ensure that casing is correct in imports. */
+    "strict": true, /* Enable all strict type-checking options. */
+    "strictFunctionTypes": true, /* When assigning functions, check to ensure parameters and the return values are subtype-compatible. */
+    "useUnknownInCatchVariables": true, /* Default catch clause variables as 'unknown' instead of 'any'. */
+    "allowUnusedLabels": true, /* Disable error reporting for unused labels. */
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */
+  },
+  "include": [
+    "./src/**/*",
+    "./tests/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
